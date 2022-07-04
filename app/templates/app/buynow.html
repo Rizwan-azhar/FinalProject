@@ -1,0 +1,45 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Buy Now{% endblock title %}
+{% block main-content %}
+<div class="container">
+ <div class="row mt-5">
+  <div class="col-sm-6">
+    <h4>Order Summary</h4>
+    <hr>
+      <div class="card mb-2">
+        <div class="card-body">
+          <h5>Product: Product 1</h5>
+          <p>Quantity: 1</p>
+          <p class="fw-bold">Price: 700.00</p>
+        </div>
+      </div>
+    <small> <strong>Term and Condition: </strong> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam saepe! Iure optio repellat dolor velit, minus rem. Facilis cumque neque numquam laboriosam, accusantium adipisci nisi nihil in et quis?</small>
+  </div>
+  <div class="col-sm-4 offset-sm-1">
+    <h4>Enter shipping details or <a href="/login"> login </a> here :  </h4>
+  
+    <hr>
+    <form action="">
+      <div class="card">
+        <div class="card-body">
+          
+          <h5>Full Name</h5>
+          <input type="text">
+          <h5>Email</h5>
+          <input type="email">
+          <h5>Mobile Number</h5>
+          <input type="number">
+          <h5>Shipping Address</h5>
+          <textarea name="" id="" cols="50" rows="5"></textarea>
+        </div>
+      </div>
+        
+        <div class="text-end">
+          <button type="submit" class="btn btn-warning mt-3 px-5 fw-bold">Continue</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock main-content %}

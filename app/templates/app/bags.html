@@ -1,0 +1,76 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Buy Now{% endblock title %}
+{% block main-content %}
+<h1 class="text-center py-5">HandBags</h1>
+
+    <div class="row container px-5 mx-5 ">
+       <div class="col-lg-4 col-md-4 col-12 "> 
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{% static 'app/images/11.jfif' %}" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">Bag1</h5>
+            <p class="card-text">RS 700</p>
+            <a href="/product-detail/" class="btn btn-primary">Details</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12"> 
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{% static 'app/images/12.jfif' %}" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Bag2</h5>
+                <p class="card-text">RS 600</p>
+                <a href="/product-detail/" class="btn btn-primary">Details</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12"> 
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'app/images/13.jfif' %}" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Bag3</h5>
+                    <p class="card-text">RS 1000</p>
+                    <a href="/product-detail/" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+                </div> 
+    </div>   
+    <div class="row container px-5 pt-5 mx-5 ">
+        <div class="col-lg-4 col-md-4 col-12 "> 
+         <div class="card" style="width: 18rem;">
+             <img class="card-img-top" src="{% static 'app/images/11.jfif' %}" alt="Card image cap">
+             <div class="card-body">
+             <h5 class="card-title">Bag4</h5>
+             <p class="card-text">RS 1200.</p>
+             <a href="/product-detail/" class="btn btn-primary">Details</a>
+             </div>
+         </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-12"> 
+             <div class="card" style="width: 18rem;">
+                 <img class="card-img-top" src="{% static 'app/images/12.jfif' %}" alt="Card image cap">
+                 <div class="card-body">
+                 <h5 class="card-title">Bag5</h5>
+                 <p class="card-text">RS 900</p>
+                 <a href="/product-detail/" class="btn btn-primary">Details</a>
+                 </div>
+             </div>
+             </div>
+             <div class="col-lg-4 col-md-4 col-12"> 
+                 <div class="card" style="width: 18rem;">
+                     <img class="card-img-top" src="{% static 'app/images/13.jfif' %}" alt="Card image cap">
+                     <div class="card-body">
+                     <h5 class="card-title">Bag6</h5>
+                     <p class="card-text">RS 900</p>
+                     <a href="/product-detail/" class="btn btn-primary">Details</a>
+                     </div>
+                 </div>
+                 </div> 
+     </div>   
+
+     <div class="pt-5 justify-content-center text-center">
+
+        <a href="/bags/" class="btn btn-primary">Show More</a>
+     </div>
+{% endblock main-content %}

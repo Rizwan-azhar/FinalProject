@@ -20,9 +20,6 @@ def orderplaced(request):
 def buy_now(request):
  return render(request, 'app/buynow.html')
 
-def profile(request):
- return render(request, 'app/profile.html')
-
 
 
 def orders(request):
